@@ -7,7 +7,12 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load correct model file (IMPORTANT FIX)
-model = joblib.load("../model/study_model.pkl")
+import os
+
+base_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(base_dir, "..", "model", "study_model.pkl")
+
+model = joblib.load(model_path)
 
 # Title
 st.title("📚 AI Study Time Recommender")
