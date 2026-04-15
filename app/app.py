@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load correct model file (IMPORTANT FIX)
-model = joblib.load("../model/study_model (1).pkl")
+model = joblib.load("../model/study_model.pkl")
 
 # Title
 st.title("📚 AI Study Time Recommender")
