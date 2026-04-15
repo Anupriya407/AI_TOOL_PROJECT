@@ -13,7 +13,7 @@ This system predicts study time based on:
 Python, Pandas, NumPy, Scikit-learn, Streamlit, Joblib
 
 ## 📂 Project Structure
-
+```
 AI_TOOL_PROJECT/
 │
 ├── app/
@@ -30,7 +30,7 @@ AI_TOOL_PROJECT/
 │
 ├── README.md
 ├── requirements.txt
-
+```
 ## ▶️ Run Project
 
 cd app
